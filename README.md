@@ -7,6 +7,10 @@ This is an **Dockerized** and authentication-protected Todo App using **Node.js*
 
 Adapted from Smoljames' tutorial [Backend Full Course](https://youtu.be/9BD9eK9VqXA?si=trWojZUKQFdGk4Wg).
 
+## Live Demo
+
+You can use the app here: [https://todo-app-dry-frog-4612.fly.dev/](https://todo-app-dry-frog-4612.fly.dev/)
+
 ## Quickstart
 
 Clone the repository. Then, generate the Prisma Client:
