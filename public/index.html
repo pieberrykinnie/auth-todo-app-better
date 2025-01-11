@@ -15,19 +15,23 @@
 <body>
     <section id="auth">
         <div>
-            <h2 className="sign-up-text">Login</h2>
-            <p>Create an account!</p>
+            <h2 class="sign-up-text">Welcome Back</h2>
+            <p>Enter your credentials to continue</p>
         </div>
 
         <p id="error" style="display: none;"></p>
-        <input id="emailInput" placeholder="Email" />
-        <input id="passwordInput" placeholder="********" type="password" />
-        <button id="authBtn" onclick="authenticate()">
-            Submit
-        </button>
+        
+        <div class="input-group">
+            <input id="emailInput" placeholder="Email" />
+            <input id="passwordInput" placeholder="Password" type="password" />
+            <button id="authBtn" onclick="authenticate()">
+                Sign In
+            </button>
+        </div>
+        
         <hr />
         <div class="register-content">
-            <p>Don&apos;t have an account?</p>
+            <p>Don't have an account?</p>
             <button onclick="toggleIsRegister()" id="registerBtn">Sign up</button>
         </div>
     </section>
